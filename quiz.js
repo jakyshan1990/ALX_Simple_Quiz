@@ -1,8 +1,8 @@
 function checkAnswer(){
-let correctAnswer=4;userAnswer=0;
+let correctAnswer="4";userAnswer="0";
 userAnswer=document.querySelector('input[name=quiz]:checked').value;
 console.log(userAnswer);
-if( userAnswer == correctAnswer ){
+if( userAnswer === correctAnswer ){
     document.getElementById("feedback").innerHTML="Correct! Well done.";
 }else{
    document.getElementById ('feedback').innerHTML = "That's incorrect. Try again!";
