@@ -10,7 +10,7 @@ let correctAnswer="4";userAnswer="0";
 userAnswer=document.querySelector('input[name=quiz]:checked').value;
 
 
-if (userAnswer===correctAnswer) {
+if(userAnswer === correctAnswer){
     document.getElementById("feedback").innerHTML="Correct! Well done.";
 }
 else {
