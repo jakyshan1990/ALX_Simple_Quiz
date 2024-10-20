@@ -5,8 +5,8 @@ btn1.addEventListener ('click', checkAnswer);
 
 function checkAnswer(){
 
-let correctAnswer="4";
-let userAnswer="0";
+var correctAnswer="4";
+var userAnswer="0";
 
 userAnswer=document.querySelector('input[name=quiz]:checked').value;
 
