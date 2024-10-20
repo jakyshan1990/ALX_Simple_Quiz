@@ -5,18 +5,19 @@ btn1.addEventListener ('click', checkAnswer);
 
 function checkAnswer(){
 
-var correctAnswer="4";
-var userAnswer="0";
+let correctAnswer="4";
+let userAnswer="0";
+let txt1="0";
 
 userAnswer=document.querySelector('input[name=quiz]:checked').value;
 
-
 if(userAnswer === correctAnswer){
-    document.getElementById("feedback").textContent="Correct! Well done.";
+    txt1="Correct! Well done.";
 }
 else {
-   document.getElementById ('feedback').textContent = "That's incorrect. Try again!";
+   txt1 = "That's incorrect. Try again!";
  
 }
+document.getElementById ('feedback').textContent = txt1;
 
 }
