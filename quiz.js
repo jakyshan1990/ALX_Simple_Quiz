@@ -1,6 +1,6 @@
 let btn1 = document.getElementById ('submit-answer');
 
-btn1.addEventListener ('click', checkAnswer);
+btn1.addEventListener('click', checkAnswer);
 
 
 function checkAnswer(){
