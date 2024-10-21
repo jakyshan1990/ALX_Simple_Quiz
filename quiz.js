@@ -11,7 +11,7 @@ let txt1="0";
 
 userAnswer=document.querySelector('input[name=quiz]:checked').value;
 
-if(userAnswer === correctAnswer){
+if (userAnswer === correctAnswer){
     txt1="Correct! Well done.";
 }
 else {
