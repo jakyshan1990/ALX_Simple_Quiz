@@ -1,4 +1,4 @@
-let btn1 = document.getElementById ('submit-answer');
+let btn1 = document.getElementById('submit-answer');
 
 btn1.addEventListener('click', checkAnswer);
 
